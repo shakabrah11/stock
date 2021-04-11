@@ -1,0 +1,11 @@
+---
+application:
+  name: "stock"
+  project: "script"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-stock"
+  routes:
+  - application_name: "stock"
+    paths:
+    - "/*"
